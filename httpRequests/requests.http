@@ -1,0 +1,20 @@
+###
+POST http://localhost:3000/sign-up
+Content-Type: application/json
+
+{
+  "email": "alibek1@gmail.com",
+  "password": "Seke"
+}
+
+###
+POST http://localhost:3000/sign-in
+Content-Type: application/json
+
+{
+  "email": "san@gmail.com",
+  "password": "Seke"
+}
+
+###
+GET http://localhost:3000/validate
